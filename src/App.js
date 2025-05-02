@@ -6,6 +6,7 @@ import Register from './component/Register/Register';
 import Header from './component/Header/Header';
 import Login from './component/Login/Login';
 import Info from './component/Info/Info';
+import Description from './component/Description/Description';
 function App() {
   return (
    <BrowserRouter>
@@ -17,6 +18,7 @@ function App() {
     <Route path="/Register" element={<Register/>}/>
     <Route path="/Login" element={<Login/>}/>
     <Route path="/Info" element={<Info/>}/>
+    <Route path="Description" element={<Description/>}/>
     </Routes>
     </BrowserRouter>
   );
